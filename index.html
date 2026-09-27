@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>DeadCode</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Intro Overlay -->
+<div id="intro-overlay" class="intro-overlay">
+    <div class="intro-content">
+        <video id="intro-video" class="intro-video" autoplay muted playsinline>
+            <source src="assets/166706-835224052.mp4" type="video/mp4">
+        </video>
+        <div class="intro-text-container">
+            <p class="intro-text-line fade-in-1">Something is watching...</p>
+            <p class="intro-text-line fade-in-2">You shouldn't have come here.</p>
+            <p class="intro-text-line fade-in-3">Welcome to my portfolio.</p>
+        </div>
+    </div>
+    <div class="intro-button-container">
+        <button id="enter-btn" class="enter-btn">ENTER</button>
+    </div>
+</div>
+    
+        <nav class="navbar">
+            <div class="nav-container">
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                <li><a href="#skills" class="nav-link skills-link"><span class="skills-text">SKILLS</span><span class="skills-question">?</span></a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+         </div>
+    </nav>
+
+    <section id="home" class="section home-section">
+        <div class="home-content">
+            <h1>DeadCode</h1>
+            <p class="tagline">Full Stack Developer</p>
+            <p class="intro-text">Welcome to my digital space.</p>
+            <p class="subtle-hint">Everything has a story here, Visit "skills" if u dare!!!</p>
+            <div style="margin-top: 2rem;">
+                 <a href="#projects" style="color: #B00020; text-decoration: none; margin-right: 2rem; font-weight: bold;">VIEW WORK →</a>
+                 <a href="#contact" style="color: #E5E5E5; text-decoration: none; font-weight: bold;">CONTACT →</a>
+             </div>
+        </div>
+    </section>
+
+    <section id="about" class="section about-section">
+        <div class="section-content">
+            <h2>ABOUT ME</h2>
+            <p>Hi, I'm Aagam Jain, a Full Stack Developer passionate about creating interactive web experiences. I love turning complex problems into simple, beautiful solutions through code.</p>
+            <p style="margin-top: 1.5rem; color: #999;">With expertise in modern web technologies, I build applications that are fast, scalable, and user-friendly. When I'm not coding, I'm exploring new technologies and pushing the boundaries of what's possibleon the web.</p>
+        </div>
+    </section>
+
+<section id="projects" class="section projects-section">
+    <div class="section-content">
+        <h2>PROJECTS</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <h3>Horror Portfolio Website</h3>
+                <p>A cinematic, horro-themed devoloper portfolio built with vanila HTML, CSS, AND JavaScript. features atmospheric effects ,smooth animations, and an engaging intro sequence.</p>
+                <p class="tech">HTML • CSS • JavaScript</p>
+            </div>
+            <div class="project-card">
+                <h3>Task Management App</h3>
+                <p>Collaborative task management tool with real-time updates, user collaboration features, and data persistence. Perfect for team productivity.</p>
+                <p class="tech">React • Firebase • Tailwind CSS</p>
+            </div>
+            <div class="project-card">
+                <h3>E-Commerce Platform</h3>
+                <p>Full-stack e-commerce application with user authentication, product catalog, shopping cart, and payment integration. Built with React and Node.js backend.</p>
+                <p class="tech">React • Node.js • MongoDB • Stripe</p>
+            </div>
+        </div>
+    </div>
+</section> 
+
+<section id="skills" class="section skills-section">
+    <div class="section-content">
+        <h2>SKILLS</h2>
+        <div class="skills-list">
+            <span class="skill">HTML</span>
+            <span class="skill">CSS</span>  
+            <span class="skill">JavaScript</span>
+            <span class="skill">React</span>
+            <span class="skill">Node.js</span>
+            <span class="skill">Python</span>
+            <span class="skill">MongoDB</span>
+            <span class="skill">Git</span>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="section contact-section">
+    <div class="section-content">
+        <h2>CONTACT</h2>
+        <p>Still here? Let's work together.</p>
+        <ul class="contact-links">
+            <li><a href="mailto:aagamjain754@gmail.com">📧 Email</a></li>
+            <li><a href="linkedin.com">💼 LinkedIn</a></li>
+            <li><a href="github.com">💻 GitHub</a></li>
+        </ul>
+         <p style="margin-top: 2rem; color: #777; font-size: 0.9rem;">© 2026 DeadCode. All rights reserved.</p>
+    </div>
+</section>
+
+<div id="jumpscare-overlay" class="jumpscare-overlay hidden">
+    <video id="jumpscare-video" class="jumpscare-video" muted playsinline>
+       <source src="assets/136216-764387529_medium.mp4" type="video/mp4">
+    </video>
+</div>
+
+<audio id="jumpscare-sound">
+    <source src="assets/jeremayjimenez-smile-dog-jumpscare-167171.mp3" type="audio/mpeg">
+</audio>
+
+<script src="script.js"></script>
+
+</body>
+</html>
